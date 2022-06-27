@@ -15,10 +15,29 @@
 //console.log(myString);
 
 // Setup
-let lastNameLength = 0;
-const lastName = "Lovelace";
+// let lastNameLength = 0;
+// const lastName = "Lovelace";
 
+// // Only change code below this line
+// lastNameLength = lastName.length;
+// console.log(lastNameLength);
+
+// const myStr = "FirstLine\n\t \\SecondLine\n ThirdLine"; // Change this line
+// console.log(myStr);
+
+// const myNoun = "dog ";
+// const myAdjective = "big ";
+// const myVerb = "ran ";
+// const myAdverb = "quickly";
+
+// // Only change code below this line
+// const wordBlanks = "The " + myAdjective + myNoun + myVerb + myAdverb ; // Change this line
+// // Only change code above this line
+// console.log(wordBlanks);
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+console.log(myArray);
 // Only change code below this line
-lastNameLength = lastName.length;
-console.log(lastNameLength);
-
+const removedFromMyArray = myArray.pop();
+console.log(removedFromMyArray);
