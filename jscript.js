@@ -86,12 +86,40 @@
 // console.log(sum);
 
 //Return that returns?
-let processed = 0;
+// let processed = 0;
 
-function processArg(num) {
-  return (num + 3) / 5;
+// function processArg(num) {
+//   return (num + 3) / 5;
+// }
+
+// // Only change code below this line
+// processed = processArg(7);
+// console.log(processed);
+
+//Array push() and shift() look carefully at where shift is stored
+//Also look carefully at display of removed first item
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  const removed = arr.shift();
+  return removed;
+
+  //return item;
+  // Only change code above this line
 }
 
-// Only change code below this line
-processed = processArg(7);
-console.log(processed);
+// Setup
+const testArr = [1, 2, 3, 4, 5];
+console.log(JSON.stringify(testArr));
+document.getElementById("A").innerHTML = JSON.stringify(testArr);
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+document.getElementById("A1").innerHTML = "Before: " + JSON.stringify(testArr);
+
+document.getElementById("A2").innerHTML = JSON.stringify(testArr[0]);
+console.log(testArr[0]);
+console.log(nextInLine(testArr, 6));
+
+console.log("After: " + JSON.stringify(testArr));
+document.getElementById("A3").innerHTML = "After: " + JSON.stringify(testArr);
