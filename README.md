@@ -5,4 +5,6 @@ Free code camp certification 300hrs!
 "32 of 113 completed 24/6"
 "47 of 113 completed 27/6"
 "Adding indexRevert and reverting it"
+"Time to put some styling in! Doit"
+"68/113 complete, fun with comparisons!"
 
