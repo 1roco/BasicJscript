@@ -123,3 +123,12 @@ console.log(nextInLine(testArr, 6));
 
 console.log("After: " + JSON.stringify(testArr));
 document.getElementById("A3").innerHTML = "After: " + JSON.stringify(testArr);
+
+//Demo of function exiting at return statement - nice one!
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye");
+}
+//myFun();
+console.log(myFun());
