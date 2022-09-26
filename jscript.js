@@ -98,31 +98,36 @@
 
 //Array push() and shift() look carefully at where shift is stored
 //Also look carefully at display of removed first item
-function nextInLine(arr, item) {
-  // Only change code below this line
-  arr.push(item);
-  const removed = arr.shift();
-  return removed;
+// function nextInLine(arr, item) {
+//   // Only change code below this line
+//   arr.push(item);
+//   const removed = arr.shift();
+//   return removed;
 
   //return item;
   // Only change code above this line
-}
+//}
 
 // Setup
-const testArr = [1, 2, 3, 4, 5];
-console.log(JSON.stringify(testArr));
-document.getElementById("A").innerHTML = JSON.stringify(testArr);
+// const testArr = [1, 2, 3, 4, 5];
+// console.log(JSON.stringify(testArr));
+// document.getElementById("A").innerHTML = JSON.stringify(testArr);
 
-// Display code
-console.log("Before: " + JSON.stringify(testArr));
-document.getElementById("A1").innerHTML = "Before: " + JSON.stringify(testArr);
+// // Display code
+// console.log("Before: " + JSON.stringify(testArr));
+// document.getElementById("A1").innerHTML = "Before: " + JSON.stringify(testArr);
 
-document.getElementById("A2").innerHTML = JSON.stringify(testArr[0]);
-console.log(testArr[0]);
-console.log(nextInLine(testArr, 6));
+// document.getElementById("A2").innerHTML = JSON.stringify(testArr[0]);
+// console.log(testArr[0]);
+// console.log(nextInLine(testArr, 6));
 
+<<<<<<< HEAD
 console.log("After: " + JSON.stringify(testArr));
 document.getElementById("A3").innerHTML = "After: " + JSON.stringify(testArr);
+=======
+// console.log("After: " + JSON.stringify(testArr));
+// document.getElementById("A3").innerHTML = "After: " + JSON.stringify(testArr);
+>>>>>>> 6b9784b (Correcting repo (I hope!))
 
 //Demo of function exiting at return statement - nice one!
 function myFun() {
