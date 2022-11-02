@@ -8,3 +8,4 @@ Free code camp certification 300hrs!
 "Completed exercise 57 Stand in Line - array, item - add, remove and display items"
 "Index updated Completed to ex 78 but nothing further in Index or js, also find out how to inspect completed exs
 "Correcting repo (I hope!) Completed to 78/113 and continuing from there - Now completed to 81/113 - sweating? "
+"complete to 94/113 - good fun too! not saved to git yet"
